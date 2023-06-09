@@ -172,28 +172,49 @@ footer{
     font-weight: bold;
 
 }
-/* @media screen and (max-width: 770px) {
+@media screen and (max-width: 770px) {
     body{
         height: 100%;
     }
+    .logo{
+        margin: 5rem 0 0 -1rem;
+    }
     .contenido{
         flex-direction:column;
-        background: red;
         margin: 0;
      }
-    } */
-    /* .cuadro-1{
-        margin: 0;
+
+    .cuadro-1{
+        margin: 7rem 0;
     }
-    /* .cuadro-2{
-        margin: 0 1rem 2rem;
+    .texto-area{
+        padding: 2rem;
+        height: 30rem;
+    }
+    .inf{
+        margin: 4rem 0 1rem 2rem;
+    }
+    .botones button{
+        margin: 0 1rem;
+        gap:1rem;
+    }
+    .cuadro-2{
+        margin: -10rem 2rem 2rem;
     }
     .cuadro2-1{
-        margin: 1rem auto;
-    } */
-    /* .munheco{
+        margin: 2rem;
+        height: 4rem;
+    } 
+    .munheco{
         display: none;
-    } */ 
+    }
+    .info1{
+        margin-bottom: 1rem;
+    }
+    .msj{
+        margin: 1rem;
+    }
+} 
     @media screen and (max-width: 375px){
         body{
             height: 100%;
