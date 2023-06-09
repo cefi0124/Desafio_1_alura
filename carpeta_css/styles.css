@@ -1,0 +1,254 @@
+*{   
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+body{
+    background:  #F3F5FC;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height: 15%;
+}
+.logo{
+
+    width: 120px;
+    height: 48px;
+    margin: 1rem 0 0 4rem;
+}
+main{
+    height: 70%;
+}
+.contenido{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap:5rem;
+}
+
+.cuadro-1{
+   
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 0 0 16rem;
+}
+.texto-area{
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 100%;
+    height: 80%; 
+    border: none;
+    background-color: inherit; 
+    font-weight:bold ;
+    color: #0A3871; 
+    padding: 10px;
+    text-transform: lowercase;
+
+}
+::placeholder{
+    color: #0A3871;
+}
+.texto-area:focus{
+    outline: none;
+}
+.inf{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4rem 0 10px 0; 
+    font-family: "Inter";
+    font-size: 15px;
+    line-height: 18px;
+    color: #495057;
+}
+.botones{
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.botones button{
+    width: 45%;
+}
+.boton-1{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    font-family: "Inter";
+    height: 67px;
+    cursor: pointer;
+}
+.boton-2{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    cursor: pointer;
+}
+.cuadro-2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+    background: white;
+    border-radius: 32px;
+    flex: 1;
+    margin: 0 2rem 0 0;
+    text-align: center;
+}
+.cuadro2-1{
+    margin: auto;    
+    background: white;
+}
+.munheco{
+    background: white;
+    width: 100%;
+   
+}
+.oculto{
+    display: none;
+    border-radius: 32px;
+}
+.info1{
+    color: #343A40;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    background: white;
+}
+.info2{
+    color: #495057;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    background: white;
+}
+
+.boton-3{
+    margin: 0 auto 3rem;  
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #0A3871;
+    width: 90%;
+    height: 67px;
+} 
+#cuboOculto{
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+ 
+}
+.msj{
+    font-Family:'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    border-radius: 32px;
+} 
+footer{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    flex-direction: column;
+
+  
+}
+.firma{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+
+}
+/* @media screen and (max-width: 770px) {
+    body{
+        height: 100%;
+    }
+    .contenido{
+        flex-direction:column;
+        background: red;
+        margin: 0;
+     }
+    } */
+    /* .cuadro-1{
+        margin: 0;
+    }
+    /* .cuadro-2{
+        margin: 0 1rem 2rem;
+    }
+    .cuadro2-1{
+        margin: 1rem auto;
+    } */
+    /* .munheco{
+        display: none;
+    } */ 
+    @media screen and (max-width: 375px){
+        body{
+            height: 100%;
+        }
+        .logo{
+            margin: 2rem 0 0 -16px;
+        }
+        .contenido{
+            flex-direction: column;
+            width: 95%;
+            gap: 0;
+            
+        }
+        .cuadro-1{
+            margin: 4rem 0 0 0;
+            padding: 1rem;
+            width: 21rem;
+        }
+        .texto-area{
+            height: 16rem;
+        }
+        .inf{
+            margin: 0 0 10px 1rem;
+        }
+        
+        .botones{
+            flex-direction: column;
+            align-items: center;
+        }
+        .botones button{
+            width: 90%;
+            margin: 0 0 1rem 0;
+        }
+        .cuadro-2{
+            margin: 0 2rem;
+            width: 20rem;
+            
+        }
+        .cuadro2-1{
+            border-radius: 32px;
+            
+        }
+        .munheco{
+            display: none;
+        }
+        .info1{
+            
+            margin: 2rem 2rem;
+        }
+        .info2{
+        
+            margin: 1rem 2rem;
+        }
+       footer{
+        margin-top: 1rem;
+       }
+
+    }
